@@ -30,7 +30,13 @@ This is probably the shortest code to implement real-time emotion monitoring.
 
 2. Download the Haar cascade XML file for face detection:
    - Visit the [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades) and download the `haarcascade_frontalface_default.xml` file.
-3. 
+     
+3. Make the following changes in the emotion.py file
+   - Replace $[ACCOUNT_SID] with your Twilio Account SID. 
+   - Replace $[AUTH_TOKEN] with your Twilio Auth Token.
+   - Replace $[TWILIO_PHONE_NUMBER] with a Twilio phone number. A trial account comes with one free Twilio number, or else you can purchase a number from Twilio.
+   - Replace $[MESSAGE] with the message you intend to send via SMS.
+   - Replace $[TARGET_PHONE_NUMBER] with the receiver's phone number. USE country code.
 
 4. Run the code:
    - Execute the Python script.
