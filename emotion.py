@@ -7,14 +7,14 @@ import threading
 
 def send_notifications():
 
-    account_sid = 'AC678944e9b523a086ee25760e241cfc2f'
-    auth_token = '58edb44f0c4022039e38186296fe9e1d'
+    account_sid = '$[ACCOUNT_SID]'
+    auth_token = '$[AUTH_TOKEN]'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
-    from_='+12028833925',
-    body='The children are crying',
-    to='+254794505881'
+    from_='$[TWILIO_PHONE_NUMBER]',
+    body='$[MESSAGE]',
+    to='$[TARGET_PHONE_NUMBER]'
     )
 
 
