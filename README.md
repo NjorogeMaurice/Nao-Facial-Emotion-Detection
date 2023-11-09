@@ -3,13 +3,15 @@
 This project implements real-time facial emotion detection using the `deepface` library and OpenCV. It captures video from the webcam, detects faces, and predicts the emotions associated with each face. The emotion labels are displayed on the frames in real-time.
 This is probably the shortest code to implement realtime emotion monitoring.
 - Give this repository a ⭐ if you liked it, since it took me time to understand and implement this
-- Forked from [Manish Tiwari](https://github.com/manish-9245)
+- Forked from [Manish Tiwari]([https://github.com/manish-9245])
 
 
 ## Dependencies
 
 - [deepface](https://github.com/serengil/deepface): A deep learning facial analysis library that provides pre-trained models for facial emotion detection. It relies on TensorFlow for the underlying deep learning operations.
 - [OpenCV](https://opencv.org/): An open-source computer vision library used for image and video processing.
+- [twilio]:
+An open-source library used for sending sms notifications 
 
 ## Usage
 ### Initial steps:
