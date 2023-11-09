@@ -62,11 +62,11 @@ def emotion_recognition():
             emotion_idx = preds.argmax()
             emotion = emotion_labels[emotion_idx]
 
-            # test sending notifications
-
+            # Check if emotion returned is 'sad'
             if emotion == "sad":
                 no_times_sad = no_times_sad + 1
-
+                
+            # Is triggered when total number of video frames returning a sad face is equal to ten. It can be modified  
             if no_times_sad == 10:
                 print("hello")
                 send_notifications()
