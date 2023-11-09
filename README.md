@@ -4,6 +4,7 @@ This project implements real-time facial emotion detection using the `deepface` 
 This is probably the shortest code to implement realtime emotion monitoring.
 - Give this repository a ⭐ if you liked it, since it took me time to understand and implement this
 - Forked from [Manish Tiwari]([https://github.com/manish-9245])
+- [deepface](https://github.com/serengil/deepface)
 
 
 ## Dependencies
