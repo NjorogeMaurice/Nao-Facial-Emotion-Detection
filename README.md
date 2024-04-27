@@ -3,7 +3,6 @@
 This project uses the `deepface` library and OpenCV to implement real-time facial emotion detection. It captures video from the webcam, detects faces, and predicts the emotions associated with each face. The emotion labels are displayed on the frames in real time. It has been improved and modified to enable the sending of SMS notifications based on emotion detected. The project is intended to be deployed to an NAO robot to monitor the emotions of children.
 This is probably the shortest code to implement real-time emotion monitoring.
 - Give this repository a ⭐ if you liked it, since it took me time to understand and implement this
-- Forked from [Manish Tiwari](https://github.com/manish-9245/Facial-Emotion-Recognition-using-OpenCV-and-Deepface)
 - Improved to accommodate sending of SMS notifications
 
 
